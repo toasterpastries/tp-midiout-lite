@@ -230,7 +230,9 @@ void playCC(byte m, byte n) {
       break;
   }
 }
-//**TP** This eats up the last 
+//**TP** This eats up the last 2 possible Program Change values, and turns them into manual transport commands
+// Y6E = Start
+// Y6F = Stop
 void playPC(byte m, byte n) {
   if (n == 110) {
     MIDI.sendRealTime(midi::Start);
