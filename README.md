@@ -1,7 +1,7 @@
 # tp-midiout-lite
-Customized versions of ledfyr's "ab-midiout-project"
+Customized versions of ledfyr's "ab-midiout-lite" project
 
-These sketches are based on ledfyr ab-midiout-project https://github.com/ledfyr/ab-midiout-lite
+These sketches are based on ledfyr's ab-midiout-lite https://github.com/ledfyr/ab-midiout-lite
 Which is based on Trash80's Arduinoboy project https://github.com/trash80/Arduinoboy
 
 The MIDI Thru code was taken from Send MIDI IN to MIDI OUT (THRU)
