@@ -10,16 +10,22 @@ http://sandsoftwaresound.net/arduino-midi-sequencer-testing/
 
 Some changes apply to all versions:
 - MIDI THRU added
-- Automatic transport Start/Stop messages have been removed
 - Manual transport Start/Stop messages have been added:
   - Y6E = Start
   - Y6F = Stop
-  - Note: This eats up the last 2 possible Program Change values
+  - Note: This eats up the last 2 possible Program Change values, 110 and 111
 
 Version-specific changes:
 
+**STOCK+THRU**
+- Stock MIDI channels
+- Stock transport Start/Stop
+- Stock special commands
+
+
 **OMNI**
-- All LSDJ channels are set to MIDI Channel 1
+- Automatic transport Start/Stop messages have been removed
+- All LSDJ channels are set to MIDI Channel 0
 - Using X6y to change MIDI channels is disabled
 - All special commands are moved up on number, e.g.
   - X0y = MIDI CC 1 (scaled)
